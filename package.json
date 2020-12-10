@@ -1,0 +1,22 @@
+{
+  "name": "photo-book",
+  "version": "1.0.0",
+  "description": "photobook app",
+  "main": "main.js",
+  "scripts": {
+    "start": "firebase serve",
+    "deploy": "firebase deploy",
+    "bundle": "webpack --config public/webpack.config.js"
+  },
+  "author": "Andrei V",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "firebase": "^8.1.1",
+    "firebaseui": "^4.7.1",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

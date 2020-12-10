@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.firebaseui-auth-container {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  max-width: none;
+}
+.hidden {
+  display: none;
+}
+.firebaseui-container,
+.firebaseui-idp-list,
+.firebaseui-list-item {
+  background: none;
+}
+.mdl-card {
+  background: rgb(255, 255, 255);
+}
